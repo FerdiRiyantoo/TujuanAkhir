@@ -7,5 +7,6 @@ class Home extends BaseController
     public function index(): string
     {
         return view('welcome ayu');
+        return view('Selamat Datang, Muhammad Farhan');
     }
 }
