@@ -9,4 +9,9 @@ class Home extends BaseController
         return view('Ferdi');
         return view('welcome ayu');
     }
+    
+    
+        $nama = 'Kelompok Absurd';
+    
+    
 }
