@@ -6,15 +6,17 @@ class Home extends BaseController
 {
     public function index(): string
     {
-<<<<<<< HEAD
         return view('welcome ayu');
-=======
         return view('welcome rizkanabila');
->>>>>>> rizkanabila
+        return view('Ferdi');
+        return view('welcome ayu');
+        return view('Selamat Datang, Muhammad Farhan');
+        return view('Selamat Datang, Prodi Manajemen Informatika');
     }
-    
 
-
-
+    {
+        $nama = 'Kelompok Absurd';
+        return view('about');
     }
+
 }
